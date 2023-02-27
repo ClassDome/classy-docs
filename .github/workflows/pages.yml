@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node and Yarn
-        uses: actions/setup-node@v1.4.1
+        uses: actions/setup-node@v3
         with:
           node-version: "16.14.0"
       - name: Install Dependencies
